@@ -1,0 +1,35 @@
+{
+  "name": "my-rainbowkit-app",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.1",
+    "@mui/x-date-pickers": "^8.5.0",
+    "@rainbow-me/rainbowkit": "^2.2.5",
+    "@tanstack/react-query": "^5.55.3",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "ethers": "^6.14.3",
+    "formik": "^2.4.6",
+    "next": "^15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.6.1",
+    "viem": "2.29.2",
+    "wagmi": "^2.15.2",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "@types/react": "^19.0.6",
+    "eslint-config-next": "^15.1.7",
+    "typescript": "5.5.4"
+  }
+}
